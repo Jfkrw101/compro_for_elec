@@ -1,0 +1,98 @@
+จงเขียนโปรแกรมลงในส่วนที่จัดไว้ให้ เพื่อให้โปรแกรมทำงานได้อย่างถูกต้อง โดยใช้การเลือกโหมดในการคำนวณค่าเมตริกซ์
+mode 1 >> เมตริกซ์บวกเมตริกซ์
+mode 2 >>เมตริกซ์คูณค่าคงที่
+mode 3 >>และเมตริกซ์คูณกับเมตริกซ์
+mode 0 >> ออกจากโปรแกรม
+และมีเงื่อนไขดังนี้
+-ขนาดของเมตริกซ์ที่นำมาบวกกัน จะต้องมีค่าเท่ากันเสมอ เช่น เมตริกซ์ A มีขนาด 2x2 เมตริกซ์ B ก็ต้องมีขนาด 2x2
+-ขนาดของเมตริกซ์ที่นำมาคูณกัน จะต้องมีขนาดเป็น mxn กับ nxo เช่น เมตริกซ์ A มีขนาด ?x2 เมตริกซ์ B จะมีขนาด 2x? โดยที่ ? ไม่จำเป็นต้องมีค่าเท่ากัน
+
+โดยมีหลักการทำงานของโปรแกรมดังตัวอย่างต่อไปนี้
+Please Select Mode, A+B>>1, axA>>2, AxB>>3, Exit>>0 :: 4
+
+select mode error, please try again
+
+Please Select Mode, A+B>>1, axA>>2, AxB>>3, Exit>>0 :: 1
+Please Input Dimension of Matrix A (mxn) : 2x2
+Please Input Dimension of Matrix B (mxn) : 3x3
+
+dimension fail, please try again
+
+Please Select Mode, A+B>>1, axA>>2, AxB>>3, Exit>>0 :: 1
+Please Input Dimension of Matrix A (mxn) : 2x2
+Please Input Dimension of Matrix B (mxn) : 2x2
+
+input A(1,1) : 1
+input A(1,2) : 2
+input A(2,1) : 3
+input A(2,2) : 4
+
+input B(1,1) : 5
+input B(1,2) : 6
+input B(2,1) : 7
+input B(2,2) : 8
+
+===== result =====
+    6    8
+   10   12
+
+Please Select Mode, A+B>>1, axA>>2, AxB>>3, Exit>>0 :: 3
+Please Input Dimension of Matrix A (mxn) : 3x3
+Please Input Dimension of Matrix B (mxn) : 2x3
+
+dimension fail, please try again
+
+Please Select Mode, A+B>>1, axA>>2, AxB>>3, Exit>>0 :: 2
+Please Input Dimension of Matrix A (mxn) : 3x4
+Please Input Scalar of a : 2
+
+input A(1,1) : 1
+input A(1,2) : 2
+input A(1,3) : 3
+input A(1,4) : 4
+input A(2,1) : 5
+input A(2,2) : 6
+input A(2,3) : 7
+input A(2,4) : 8
+input A(3,1) : 9
+input A(3,2) : 10
+input A(3,3) : 11
+input A(3,4) : 12
+
+===== result =====
+    2    4    6    8
+   10   12   14   16
+   18   20   22   24
+
+Please Select Mode, A+B>>1, axA>>2, AxB>>3, Exit>>0 :: 3
+Please Input Dimension of Matrix A (mxn) : 3x2
+Please Input Dimension of Matrix B (mxn) : 2x3
+
+input A(1,1) : 1
+input A(1,2) : 2
+input A(2,1) : 3
+input A(2,2) : 4
+input A(3,1) : 5
+input A(3,2) : 6
+
+input B(1,1) : 6
+input B(1,2) : 5
+input B(1,3) : 4
+input B(2,1) : 3
+input B(2,2) : 2
+input B(2,3) : 1
+
+===== result =====
+   12    9    6
+   30   23   16
+   48   37   26
+
+Please Select Mode, A+B>>1, axA>>2, AxB>>3, Exit>>0 :: 0
+
+exit program
+
+หมายเหตุ
+-ฟังก์ชั่น plusmat เป็นฟังก์ชั่นการบวกระหว่างเมตริกซ์
+-ฟังก์ชั่น scalarmat เป็นฟังก์ชั่นเมตริกซ์คูณกับค่าคงที่
+-ฟังก์ชั่น multiplemat เป็นฟังก์ชั่นการคูณระหว่างเมตริกซ์
+จะต้องใช้ฟังก์ชั่นที่กำหนดให้ หากไม่มีการใช้ คะแนนในข้อนั้น ๆ จะเป็น 0

@@ -1,0 +1,41 @@
+จงเขียนโปรแกรมในการหาค่าต่างๆต่อไปนี้
+input F : หาค่า Factorial
+input P : หาค่า Permutations
+input C : หาค่า Combinations
+input T : สร้างสามปาสคาล(Pascal triangle)
+
+ไม่ต้องคิดในกรณี r>n ใน Permutations และ Combinations
+Sameple output 1
+
+Enter mode(F)actorial,(P)ermutations,(C)ombinations, Pascal (T)riangle, (q)uit : F
+Enter n for n! : 5
+5! = 120
+Enter mode(F)actorial,(P)ermutations,(C)ombinations, Pascal (T)riangle, (q)uit : P
+Enter n,r for nPr : 3,2
+3P2 = 6
+Enter mode(F)actorial,(P)ermutations,(C)ombinations, Pascal (T)riangle, (q)uit : C
+Enter n,r for nCr : 4,1
+4C1 = 4
+Enter mode(F)actorial,(P)ermutations,(C)ombinations, Pascal (T)riangle, (q)uit : T
+Enter row of Pascal Triangle : 4
+   1
+  1 1
+ 1 2 1
+1 3 3 1
+Enter mode(F)actorial,(P)ermutations,(C)ombinations, Pascal (T)riangle, (q)uit : q
+Goodbye
+
+Sameple output 2
+
+Enter mode(F)actorial,(P)ermutations,(C)ombinations, Pascal (T)riangle, (q)uit : d
+Error Please enter again
+Enter mode(F)actorial,(P)ermutations,(C)ombinations, Pascal (T)riangle, (q)uit : T
+Enter row of Pascal Triangle : 6
+     1
+    1 1
+   1 2 1
+  1 3 3 1
+ 1 4 6 4 1
+1 5 10 10 5 1
+Enter mode(F)actorial,(P)ermutations,(C)ombinations, Pascal (T)riangle, (q)uit : q
+Goodbye

@@ -1,0 +1,11 @@
+ให้นิสิตเขียนฟังก์ชันการหา Factorial โดยใช้ Recursive Function
+
+Enter n : 1
+n! is 1
+
+Enter n : 3
+n! is 6
+
+Enter n : 8
+n! is 40320
+

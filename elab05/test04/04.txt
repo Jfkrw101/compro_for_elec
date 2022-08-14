@@ -1,0 +1,33 @@
+จงเขียนโปรแกรม copy ข้อความ string โดยสามารถเลือกช่วงการ copy ได้
+โดยทำการสร้างฟังก์ชั่น ชื่อ strcpyn โดยฟังก์ชั่นจะทำการตรวจสอบว่าสามารถทำการ copy ข้อความใน string ในช่วงที่กำหนดค่าได้หรือไม่
+ถ้าสามารถทำได้ จะทำการ copy ข้อความใน string ตามช่วงที่ input เข้ามาจาก main เช่น ถ้าเลือกช่วง 2-5 จะทำการ copy ตำแหน่งที่ 2 ถึง 5 ใน string นั้น และทำการคืนค่า 1 กลับไปยัง main แล้วแสดงผลการคัดลอกออกทางหน้าจอ
+แต่ถ้าตรวจสอบแล้วว่าไม่สามารถ copy ได้ ก็จะทำการคืนค่า 0 กลับไปยัง main และทำการแสดงผลออกทางหน้าจอว่า ไม่สามารถ copy ได้
+โดยกำหนดค่าข้องความ string ที่จะทำการ copy คือ Electrical Engineering Kasetsart University
+หมายเหตุ
+จะต้องใช้ฟังก์ชั่นที่กำหนดให้ และทำตามข้อกำหนดของฟังก์ชั่นนั้น หากไม่มีการใช้ หรือไม่ทำตาม จะถือว่าไม่ได้ส่ง
+Sample output 1
+
+string = Electrical Engineering Kasetsart University
+
+Input position start copy : 0
+Input position stop  copy : 9
+
+After copy = Electrical
+
+Sample output 2
+
+string = Electrical Engineering Kasetsart University
+
+Input position start copy : 5
+Input position stop  copy : 14
+
+After copy = rical Engi
+
+Sample output 3
+
+string = Electrical Engineering Kasetsart University
+
+Input position start copy : -1
+Input position stop  copy : 25
+
+Can not to copy because over range

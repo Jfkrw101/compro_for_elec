@@ -1,0 +1,6 @@
+จงเขียนส่วนของ function จากคำสั่งต่อไปนี้
+- function Easy ให้แสดงคำว่า Computer Programming for EE is easy!
+- function Min ให้ return ค่าที่น้อยที่สุดระหว่าง a กับ b
+- function Cylinder ให้ return ปริมาตรของทรงกระบอก รัศมี r สูง h
+- function Exponentiation ให้ return ค่า \(x^y\) ของ x และ y
+
