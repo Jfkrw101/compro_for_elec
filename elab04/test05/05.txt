@@ -1,0 +1,27 @@
+จงเขียนโปรแกรมเพื่อตรวจสอบข้อความที่ผู้ใช้ป้อนเข้ามาว่ามีตัวอักษรใหญ่ ตัวอักษรเล็ก
+และตัวเลขอย่างละกี่ตัว พร้อมแจกแจงด้วยว่ามีอะไรบ้าง
+
+Sample output
+
+Enter string : www.INFOPRESS2000.com
+
+The Uppercase Characters = INFOPRESS
+The Lowercase Characters = wwwcom
+The Number = 2000
+The number of uppercases = 9
+The number of lowercases = 6
+The number of numbers = 4
+
+Sample output 2
+
+Enter string : Abc Def 1234
+
+The Uppercase Characters = AD
+The Lowercase Characters = bcef
+The Number = 1234
+The number of uppercases = 2
+The number of lowercases = 4
+The number of numbers = 4
+
+หมายเหตุ
+ควรให้ขนาดอาเรย์ที่กำหนดมีค่าประมาณ 500 

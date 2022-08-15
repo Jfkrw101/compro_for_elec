@@ -1,0 +1,39 @@
+ให้นิสิตเขียนโปรแกรมเรียงตัวเลขจากมากไปน้อย โดยใช้วิธี Bubble Sort ดังตัวอย่าง
+
+Sample output 1
+
+Input Size of Array : 6
+Number 1 : 5.33
+Number 2 : 4.27
+Number 3 : 3.214
+Number 4 : 2.15
+Number 5 : 1.29
+Number 6 : 4.21
+
+Before Sort => 5.33 4.27 3.21 2.15 1.29 4.21
+
+Sort # 1 => 5.33 4.27 3.21 2.15 4.21 1.29
+Sort # 2 => 5.33 4.27 3.21 4.21 2.15 1.29
+Sort # 3 => 5.33 4.27 4.21 3.21 2.15 1.29
+
+--- Sort End ---
+
+Sample output 2
+
+Input Size of Array : 7
+Number 1 : 4
+Number 2 : 2
+Number 3 : 5
+Number 4 : 1
+Number 5 : 6
+Number 6 : 3
+Number 7 : 5
+
+Before Sort => 4.00 2.00 5.00 1.00 6.00 3.00 5.00
+
+Sort # 1 => 4.00 5.00 2.00 6.00 3.00 5.00 1.00
+Sort # 2 => 5.00 4.00 6.00 3.00 5.00 2.00 1.00
+Sort # 3 => 5.00 6.00 4.00 5.00 3.00 2.00 1.00
+Sort # 4 => 6.00 5.00 5.00 4.00 3.00 2.00 1.00
+
+--- Sort End ---

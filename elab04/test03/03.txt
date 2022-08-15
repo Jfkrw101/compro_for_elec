@@ -1,0 +1,57 @@
+ห้างสรรพสินค้าแห่งหนึงได้จัดโปรโมชันซื้อสินค้าครบทุกๆ 5 ชิ้นจะได้รับสินค้าฟรี 1 ชิ้น โดยชิ้นที่ฟรีจะต้องมีราคาถูกที่สุดจากการซื้อครั้งนั้น
+ซึ่งพี่วินนักช็อปก็ไม่พลาดโอกาสดีๆอย่างนี้ น้องๆช่วยพี่วินคิดหน่อยสิว่าพี่วินจะได้สินค้าฟรีกี่บาท และจะต้องจ่ายเงินทั้งหมดกี่บาท
+
+Sample output1
+
+How many items to buy : 6
+Enter price 1 : 400
+Enter price 2 : 250
+Enter price 3 : 300
+Enter price 4 : 150
+Enter price 5 : 100
+Enter price 6 : 350
+Free 100.00 baht ,and pay 1450.00 baht
+
+Sample output2
+
+How many items to buy : 5
+You can get 1 item free
+Now you have 6 items to buy
+Enter price 1 : 200.5
+Enter price 2 : 175.5
+Enter price 3 : 300
+Enter price 4 : 250.25
+Enter price 5 : 700
+Enter price 6 : 350
+Free 175.50 baht ,and pay 1800.75 baht
+
+Sample output3
+
+How many items to buy : 3
+Enter price 1 : 15.50
+Enter price 2 : 20
+Enter price 3 : 25
+Pay 60.50 baht
+
+Sample output4
+
+How many items to buy : 13
+Enter price 1 : 5
+Enter price 2 : 5
+Enter price 3 : 5
+Enter price 4 : 5
+Enter price 5 : 15
+Enter price 6 : 15
+Enter price 7 : 15
+Enter price 8 : 15
+Enter price 9 : 25
+Enter price 10 : 25
+Enter price 11 : 25
+Enter price 12 : 25
+Enter price 13 : 25
+Free 10.00 baht ,and pay 195.00 baht
+
+หมายเหตุ
+1.จำนวนที่จะซื้อเป็นจำนวนที่รวมของแถมแล้ว
+2.หากซื้อของครบ5ชิ้นพอดีให้ทำการเตือนแล้วใส่ราคาชิ้นที่แถมไปด้วย(ดังตัวอย่างsample output2)
+
