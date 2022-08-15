@@ -1,0 +1,17 @@
+จงเขียนโปรแกรมหา ห.ร.ม. และ ค.ร.น. ของเลขสองตัวดังตัวอย่างต่อไปนี้
+
+Sample output 1
+
+Please input first number : 24
+Please input second number : 243
+
+The greatest common divisor is 3
+The least common multiple is 1944
+
+Sample output 2
+
+Please input first number : 91
+Please input second number : -26
+
+The greatest common divisor is 13
+The least common multiple is 182

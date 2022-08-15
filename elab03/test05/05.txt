@@ -1,0 +1,23 @@
+จงเขียนโปรแกรมเพื่อแยกตัวประกอบของจำนวนเต็มบวก n ใดๆ ให้อยู่ในรูปของจำนวนเฉพาะคูณกัน
+โดยที่ n มีค่าเท่ากับ 1,2,3,...
+
+Sample output 1
+
+n = -2
+Wrong input
+can not factoring
+
+Sample output 2
+
+n = 1
+1 = 1
+
+Sample output 3
+
+n = 7
+7 is prime number
+
+Sample output 4
+
+n = 5346
+5346 = 2x3x3x3x3x3x11

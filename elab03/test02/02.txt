@@ -1,0 +1,27 @@
+ให้นิสิตทำการเขียนโปรแกรมโดยทำการรับค่าเลขจำนวนจริงจำนวน 3 ค่า (a, b, และ c) ผ่านทางคีย์บอร์ด เพื่อทำการทดสอบว่าจำนวนดังกล่าวมีความสัมพันธ์ตามคุณสมบัติปีทาโกรัส (Pythagoras: a2 + b2 = c2) หรือไม่ โดยโปรแกรมจะสิ้นสุดการทำงานเมื่อป้อนค่า a = b = c = 0 มิฉะนั้น โปรแกรมจะทำงานต่อไปเรื่อยๆ
+
+Sample output 1
+
+Enter a, b, c: 0, 0, 0
+
+GoodBye
+
+Sample output 2
+
+Enter a, b, c: 3, 4, 5
+Pythagorean triple: 9.00 + 16.00 = 25.00
+Enter a, b, c: 1, 2, 3
+Not a pythagorean triple: 1.00 + 4.00 != 9.00
+Enter a, b, c: 0, 0, 0
+
+GoodBye
+
+Sample output 3
+
+Enter a, b, c: 1.2, 5.5, 7.9
+Not a pythagorean triple: 1.44 + 30.25 != 62.41
+Enter a, b, c: 1.5, 2.0, 2.5
+Pythagorean triple: 2.25 + 4.00 = 6.25
+Enter a, b, c: 0.0, 0.0, 0.0
+
+GoodBye

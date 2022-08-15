@@ -1,0 +1,20 @@
+จงสร้างเกมทายตัวเลขโดยให้โปรแกรมสุ่มตัวเลขขึ้นมาแล้วผู้เล่นใส่เลขเข้าไปจนกว่าจะถูก
+
+Sample Output 1
+
+Enter number : 3
+x is less than  n
+Enter number : 50
+x is more than n
+Enter number : 25
+x is less than  n
+Enter number : 35
+x is less than  n
+Enter number : 45
+x is more than n
+Enter number : 40
+x is less than  n
+Enter number : 42
+x is more than n
+Enter number : 41
+correct

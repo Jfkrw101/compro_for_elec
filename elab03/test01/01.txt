@@ -1,0 +1,15 @@
+Sample Output 1
+
+Please input price: 1077
+Please input discount code: A
+
+Your discount is 25 percent
+Your new price is 807.75
+
+Sample Output 2
+
+Please input price: 7147
+Please input discount code: f
+
+Wrong code.Your discount is 0 percent
+Your new price is 7147.00

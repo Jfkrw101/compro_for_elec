@@ -1,0 +1,24 @@
+ให้เขียนโปรแกรมเพื่อป้อนค่าวัน/เดือน/ปี(คศ)และทำการคำนวณว่าปีที่ป้อนเข้าไปนั้นเป็น "ปีอธิกสุรทิน(leap year)" หรือไม่และอีกกี่วันจึงจะขึ้นเดือนใหม่
+โดยปีอธิกสุรทินเป็นปีที่มี 366 วัน เป็นปี ค.ศ. ที่หารด้วย 4 ลงตัว แต่ต้องไม่ลงท้ายด้วย 00 นอกเสียจากจะหารด้วย 400 ลงตัวด้วย
+โดยมีผลการทำงานของโปรแกรมดังนี้
+
+Sample output 1
+
+Enter date(d/m/y) : 12/8/1900
+The date is 12/8/1900
+1900 is normal year.
+20 days left until next month
+
+Sample output 2
+
+Enter date(d/m/y) : 30/2/2000
+The date is 30/2/2000
+2000 is leap year.
+Your day must be between 1-29
+
+Sample output 3
+
+Enter date(d/m/y) : 1/13/2017
+The date is 1/13/2017
+2017 is normal year.
+Your month must be between 1-12
