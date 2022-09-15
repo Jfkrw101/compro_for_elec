@@ -1,0 +1,13 @@
+ให้เขียนโปรแกรมเพื่อทำการแปลงค่าจำนวนเชิงซ้อนในรูป rectangular form เป็น polar form โดยผู้ใช้ทำการป้อนค่าในส่วนของ real part และ imaginary part
+
+Sample output 1
+
+Enter real part: 3
+Enter imaginary part: 4
+The polar form is: 5.00, 53.13
+
+Sample output 2
+
+Enter real part: 5.5
+Enter imaginary part: 5.5
+The polar form is: 7.78, 45.00
