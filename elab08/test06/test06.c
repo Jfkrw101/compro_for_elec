@@ -4,9 +4,7 @@ void display(int**);
 int CheckandMove(int,int**);
 int complete(int**);
 
-void display(int** a)
-{
-/*เขียนฟังก์ชันเพื่อแสดงตารางปัจจุบัน*/
+void display(int** a){
     int i,j;
     for (i=0;i<4;i++){
         printf(" ----- ----- ----- -----\n|");
@@ -22,10 +20,8 @@ void display(int** a)
     }
     printf(" ----- ----- ----- -----\n");
 }
-int CheckandMove(int b,int** a)
-{
-/*เขียนฟังก์ชันเพื่อทำการตรวจสอบว่า input ดังกล่าว สามารถขยับได้หรือไม่*/
-int temp,i,j,si,sj;
+int CheckandMove(int b,int **a){
+    int temp,i,j,si,sj;
     if(b>=1&&b<=15){
         for(i=0;i<4;i++){
             for(j=0;j<4;j++){
@@ -291,12 +287,11 @@ int temp,i,j,si,sj;
         printf("Can't move your number");
         return 0;
     }
+
 }
-int complete(int** a)
-{
-/*เขียนฟังก์ชันเพื่อตรวจสอบว่าเลขเรียงถูกต้องหรือยัง*/
+
+int complete(int **a){
     int i,j,x=0,**c;
-/*ทำการจองพื้นที่หน่วยความจำสำหรับตัวแปร c*/
     c = (int**)malloc(4*sizeof(int*));
     for(i=0;i<4;i++){
         c[i] = (int*)malloc(4*sizeof(int));
@@ -308,26 +303,24 @@ int complete(int** a)
     if(a[0][0]==c[0][0]&&a[0][1]==c[0][1]&&a[0][2]==c[0][2]&&a[0][3]==c[0][3]&&
    a[1][0]==c[1][0]&&a[1][1]==c[1][1]&&a[1][2]==c[1][2]&&a[1][3]==c[1][3]&&
    a[2][0]==c[2][0]&&a[2][1]==c[2][1]&&a[2][2]==c[2][2]&&a[2][3]==c[2][3]&&
-   a[3][0]==c[3][0]&&a[3][1]==c[3][1]&&a[3][2]==c[3][2]&&a[3][3]==c[3][3]){
+   a[3][0]==c[3][0]&&a[3][1]==c[3][1]&&a[3][2]==c[3][2]&&a[3][3]==c[3][3])
       x=0;
-   }
-   else{
+   else
       x=1;
-   }
    return x;
    for(i=0;i<4;i++){
        free(c[i]);
     }
     free(c);
 }
-void main()
-{
+void main(){
     int b,count=0,i,**a;
-/*ทำการจองพื้นที่หน่วยความจำสำหรับตัวแปร a*/
-a = (int**)malloc(4*sizeof(int*));
-for(i=0;i<4;i++)
-    a[i] = (int*)malloc(4*sizeof(int));
-     /*ส่วนนี้ เป็นส่วนของโปรแกรมสำหรับการสุ่มค่าเริ่มต้นของ pointer to pointer a*/
+    a = (int**)malloc(4*sizeof(int*));
+    for(i=0;i<4;i++){
+        a[i] = (int*)malloc(4*sizeof(int));
+    }
+
+    //ran dom number of pointer to pointer a*
     srand(time(0));
     int j,k,l,check;
     for(i=0;i<4;i++)
@@ -377,11 +370,12 @@ for(i=0;i<4;i++)
     }
     printf("Your move is %d times\n",count);
     printf("Your puzzle is complete");
-    /*พื้นที่สำหรับทำการ free พื้นที่หน่วยความจำของตัวแปร a*/
+
+    //free memory
     for(i=0;i<4;i++){
         free(a[i]);
     }
     free(a);
 
-    
+    return 0;
 }
